@@ -97,7 +97,7 @@
       <div class="social-icons">
         <a href="https://www.facebook.com/profile.php?id=61577593826024" target="_blank" rel="noopener"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/elevate_mw/" target="_blank" rel="noopener"><i class="bi bi-instagram"></i></a>
-        <a href="#" target="_blank" rel="noopener"><i class="bbi bi-twitter"></i></a>
+        <a href="https://x.com/elevate_mw?s=11" target="_blank" rel="noopener"><i class="bbi bi-twitter"></i></a>
         <a href="https://www.tiktok.com/@elevate.malawi" target="_blank" rel="noopener"><i class="bi bi-tiktok"></i></a>
       </div>
       <p class="made-by">made by <a href="https://mhubmw.com/" target="_blank" rel="noopener">mHub</a></p>
