@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
@@ -62,6 +63,19 @@
   </div>
 </section>
 
+<section class="map-highlight">
+  <div class="map-container">
+    <iframe
+      class="map-frame"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3871.3298234299273!2d33.7839975!3d-13.9586046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1921d2f06c0d682d%3A0x5285b90d2f6c44db!2sEden%20Estates%20and%20Resort!5e0!3m2!1sen!2smw!4v1722254345192!5m2!1sen!2smw"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+</section>
+
+
 <section class="sponsors">
   <div class="sponsors-container">
     <h3>Sponsored by</h3>
@@ -78,13 +92,16 @@
 <footer class="site-footer">
   <div class="footer-content">
     <img src="assets/images/Elevate_Logo_Alt.png" alt="Elevate Malawi Logo" class="footer-logo" />
-    <div class="social-icons">
-      <a href="#"><i class="bi bi-facebook"></i></a>
-      <a href="#"><i class="bi bi-instagram"></i></a>
-      <a href="#"><i class="bi bi-twitter"></i></a>
-      <a href="#"><i class="bi bi-tiktok"></i></a>
+
+    <div class="footer-right">
+      <div class="social-icons">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-tiktok"></i></a>
+      </div>
+      <p class="made-by">made by <a href="https://mhubmw.com/" target="_blank" rel="noopener">mHub</a></p>
     </div>
-    <p class="made-by">made by <span>mHub</span></p>
   </div>
 </footer>
 

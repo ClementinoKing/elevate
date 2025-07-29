@@ -70,6 +70,8 @@ body {
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .ticket-content {
     flex-direction: column;
@@ -285,6 +287,14 @@ body {
   height: 40px;
 }
 
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+  flex: 1;
+}
+
 .social-icons {
   display: flex;
   gap: 1rem;
@@ -308,7 +318,51 @@ body {
   color: #e0e0e0;
 }
 
-.made-by span {
+.made-by span,
+.made-by a {
   color: #fbbf24;
   font-weight: 600;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    order: 1;
+    justify-content: center;
+  }
+
+  .made-by {
+    order: 2;
+  }
+}
+
+.map-highlight {
+  background: #110626;
+  padding: 0;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.map-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  filter: saturate(120%) contrast(110%);
+  border-radius: 0;
 }
