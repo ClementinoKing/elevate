@@ -4,11 +4,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Youth Business Fair 2025</title>
+  <title>Elevate Malawi - Youth Business Fair 2025</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="assets/icons/favicon.ico" type="image/x-icon" />
 </head>
 <body>
 
